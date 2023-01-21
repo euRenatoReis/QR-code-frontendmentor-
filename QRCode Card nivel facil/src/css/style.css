@@ -1,0 +1,174 @@
+
+
+@media (min-width:376px ) and (max-width: 1440px) {
+
+
+body{
+   
+   display: flex;   
+   font-family: 'Open Sans', sans-serif;
+   font-family: 'Outfit', sans-serif;
+   font-family: 'Poppins', sans-serif;
+   min-height: 100vh;
+   min-width: 100vh;
+   background-color: hsl(212, 45%, 89%);
+  
+}
+
+
+
+
+.cartao{
+
+   
+     display: flex;
+     position: relative;
+     height: 400px;
+     width: 250px;
+     padding: 10px;
+     flex-wrap: wrap;
+     border-radius: 20px;
+     top: 200px;
+     left: 550px;
+     background-color: hsl(0, 0%, 100%);
+     
+}
+
+.image{
+
+    align-content: center;
+    align-self: center;
+    height: 250px;
+    width: 250px;
+}
+
+
+
+.cartao .image picture{
+    
+    display: flex;
+    height: 250px;
+     width: 250px;
+    
+    border-radius: 20px;
+}
+
+.image img{
+
+    height: 250px;
+     width: 250px;
+    border-radius: 20px;
+}
+
+.cartao .text{
+
+   display: flex;
+   height: 150px;
+     width: 250px;
+ 
+   flex-wrap: wrap;
+   align-items: center;
+   
+}
+
+
+.cartao .text h1{
+    font-size: 20px;
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+}
+
+.cartao .text p{
+
+    Font-size: 15px;
+    text-align: center;
+    color: hsl(220, 15%, 55%);
+}
+
+}
+
+@media (max-width: 375px){
+
+    
+     body{
+
+       display: flex;
+       width: 375px;
+       font-family: 'Open Sans', sans-serif;
+       font-family: 'Outfit', sans-serif;
+       font-family: 'Poppins', sans-serif;
+       background-color: hsl(212, 45%, 89%);
+     }
+
+
+
+    .cartao{
+
+   
+        display: flex;
+        position: relative;
+        height: 450px;
+        width: 310px;
+        top: 20px;
+        left: 30px;
+        flex-wrap: wrap;
+        border-radius: 20px;
+        align-content: center;
+        background-color: hsl(0, 0%, 100%);
+        
+   }
+   
+   .image{
+       display: flex;
+       align-content: center;
+       align-self: center;
+       height: 310px;
+       width: 310px;
+       top: 5px;
+   }
+   
+   
+   
+   .cartao .image picture{
+       
+       display: flex;
+       height: 310px;
+       width: 310px;
+       left: 5px;
+       border-radius: 20px;
+   }
+   
+   .image img{
+   
+       height: 310px;
+       width: 310px;
+       border-radius: 20px;
+   }
+   
+   .cartao .text{
+   
+      display: flex;
+      height: 100px;
+      width: 310px;
+       
+      flex-wrap: wrap;
+      align-items: center;
+      
+   }
+   
+   
+   .cartao .text h1{
+       font-size: 20px;
+       text-align: center;
+       color: hsl(218, 44%, 22%);
+   }
+   
+   .cartao .text p{
+   
+       Font-size: 15px;
+       text-align: center;
+       color: hsl(220, 15%, 55%);
+   }
+   
+
+}
